@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		826523E82C51966C00ED0003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826523E72C51966C00ED0003 /* AppDelegate.swift */; };
 		826523EA2C51966C00ED0003 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826523E92C51966C00ED0003 /* SceneDelegate.swift */; };
-		826523EC2C51966C00ED0003 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826523EB2C51966C00ED0003 /* ViewController.swift */; };
+		826523EC2C51966C00ED0003 /* ListPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826523EB2C51966C00ED0003 /* ListPageViewController.swift */; };
 		826523EF2C51966C00ED0003 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 826523EE2C51966C00ED0003 /* Base */; };
 		826523F12C51966F00ED0003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 826523F02C51966F00ED0003 /* Assets.xcassets */; };
 		826523F42C51966F00ED0003 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 826523F32C51966F00ED0003 /* Base */; };
 		826523FF2C51967000ED0003 /* PlantsLoveAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826523FE2C51967000ED0003 /* PlantsLoveAppTests.swift */; };
 		826524092C51967000ED0003 /* PlantsLoveAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826524082C51967000ED0003 /* PlantsLoveAppUITests.swift */; };
 		8265240B2C51967000ED0003 /* PlantsLoveAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8265240A2C51967000ED0003 /* PlantsLoveAppUITestsLaunchTests.swift */; };
+		826524192C51A0D400ED0003 /* ListPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826524182C51A0D400ED0003 /* ListPageViewModel.swift */; };
+		8265241C2C52B0CA00ED0003 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8265241B2C52B0CA00ED0003 /* APIEndpoint.swift */; };
+		8265241E2C52B55800ED0003 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8265241D2C52B55800ED0003 /* NetworkService.swift */; };
+		826524202C52B5D200ED0003 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8265241F2C52B5D200ED0003 /* RequestProtocol.swift */; };
+		826524222C52B5EC00ED0003 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826524212C52B5EC00ED0003 /* APIError.swift */; };
+		826524252C52BDF100ED0003 /* PlantsNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826524242C52BDF100ED0003 /* PlantsNetworkRequest.swift */; };
+		826524272C52C00700ED0003 /* PlantsPathEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826524262C52C00700ED0003 /* PlantsPathEnum.swift */; };
+		826524292C52C11D00ED0003 /* PlantsSpeciesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826524282C52C11D00ED0003 /* PlantsSpeciesResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +47,7 @@
 		826523E42C51966C00ED0003 /* PlantsLoveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantsLoveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		826523E72C51966C00ED0003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		826523E92C51966C00ED0003 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		826523EB2C51966C00ED0003 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		826523EB2C51966C00ED0003 /* ListPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPageViewController.swift; sourceTree = "<group>"; };
 		826523EE2C51966C00ED0003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		826523F02C51966F00ED0003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		826523F32C51966F00ED0003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,14 @@
 		826524042C51967000ED0003 /* PlantsLoveAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantsLoveAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		826524082C51967000ED0003 /* PlantsLoveAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsLoveAppUITests.swift; sourceTree = "<group>"; };
 		8265240A2C51967000ED0003 /* PlantsLoveAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsLoveAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		826524182C51A0D400ED0003 /* ListPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPageViewModel.swift; sourceTree = "<group>"; };
+		8265241B2C52B0CA00ED0003 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		8265241D2C52B55800ED0003 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		8265241F2C52B5D200ED0003 /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		826524212C52B5EC00ED0003 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		826524242C52BDF100ED0003 /* PlantsNetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsNetworkRequest.swift; sourceTree = "<group>"; };
+		826524262C52C00700ED0003 /* PlantsPathEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsPathEnum.swift; sourceTree = "<group>"; };
+		826524282C52C11D00ED0003 /* PlantsSpeciesResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsSpeciesResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +115,11 @@
 		826523E62C51966C00ED0003 /* PlantsLoveApp */ = {
 			isa = PBXGroup;
 			children = (
+				826524232C52BDDA00ED0003 /* PlantsNetworkRequest */,
+				8265241A2C52B0B900ED0003 /* NetworkLayer */,
+				826524172C51A09900ED0003 /* ListPage */,
 				826523E72C51966C00ED0003 /* AppDelegate.swift */,
 				826523E92C51966C00ED0003 /* SceneDelegate.swift */,
-				826523EB2C51966C00ED0003 /* ViewController.swift */,
 				826523ED2C51966C00ED0003 /* Main.storyboard */,
 				826523F02C51966F00ED0003 /* Assets.xcassets */,
 				826523F22C51966F00ED0003 /* LaunchScreen.storyboard */,
@@ -125,6 +143,36 @@
 				8265240A2C51967000ED0003 /* PlantsLoveAppUITestsLaunchTests.swift */,
 			);
 			path = PlantsLoveAppUITests;
+			sourceTree = "<group>";
+		};
+		826524172C51A09900ED0003 /* ListPage */ = {
+			isa = PBXGroup;
+			children = (
+				826523EB2C51966C00ED0003 /* ListPageViewController.swift */,
+				826524182C51A0D400ED0003 /* ListPageViewModel.swift */,
+			);
+			path = ListPage;
+			sourceTree = "<group>";
+		};
+		8265241A2C52B0B900ED0003 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8265241B2C52B0CA00ED0003 /* APIEndpoint.swift */,
+				8265241D2C52B55800ED0003 /* NetworkService.swift */,
+				8265241F2C52B5D200ED0003 /* RequestProtocol.swift */,
+				826524212C52B5EC00ED0003 /* APIError.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		826524232C52BDDA00ED0003 /* PlantsNetworkRequest */ = {
+			isa = PBXGroup;
+			children = (
+				826524242C52BDF100ED0003 /* PlantsNetworkRequest.swift */,
+				826524262C52C00700ED0003 /* PlantsPathEnum.swift */,
+				826524282C52C11D00ED0003 /* PlantsSpeciesResponseModel.swift */,
+			);
+			path = PlantsNetworkRequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +306,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				826523EC2C51966C00ED0003 /* ViewController.swift in Sources */,
+				826523EC2C51966C00ED0003 /* ListPageViewController.swift in Sources */,
 				826523E82C51966C00ED0003 /* AppDelegate.swift in Sources */,
 				826523EA2C51966C00ED0003 /* SceneDelegate.swift in Sources */,
+				826524192C51A0D400ED0003 /* ListPageViewModel.swift in Sources */,
+				8265241E2C52B55800ED0003 /* NetworkService.swift in Sources */,
+				826524252C52BDF100ED0003 /* PlantsNetworkRequest.swift in Sources */,
+				826524222C52B5EC00ED0003 /* APIError.swift in Sources */,
+				8265241C2C52B0CA00ED0003 /* APIEndpoint.swift in Sources */,
+				826524292C52C11D00ED0003 /* PlantsSpeciesResponseModel.swift in Sources */,
+				826524202C52B5D200ED0003 /* RequestProtocol.swift in Sources */,
+				826524272C52C00700ED0003 /* PlantsPathEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
