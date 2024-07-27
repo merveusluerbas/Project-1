@@ -44,7 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		826523E42C51966C00ED0003 /* PlantsLoveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantsLoveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		826523E42C51966C00ED0003 /* PlantsLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantsLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		826523E72C51966C00ED0003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		826523E92C51966C00ED0003 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		826523EB2C51966C00ED0003 /* ListPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPageViewController.swift; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		826523E52C51966C00ED0003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				826523E42C51966C00ED0003 /* PlantsLoveApp.app */,
+				826523E42C51966C00ED0003 /* PlantsLove.app */,
 				826523FA2C51967000ED0003 /* PlantsLoveAppTests.xctest */,
 				826524042C51967000ED0003 /* PlantsLoveAppUITests.xctest */,
 			);
@@ -178,9 +178,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		826523E32C51966C00ED0003 /* PlantsLoveApp */ = {
+		826523E32C51966C00ED0003 /* PlantsLove */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8265240E2C51967000ED0003 /* Build configuration list for PBXNativeTarget "PlantsLoveApp" */;
+			buildConfigurationList = 8265240E2C51967000ED0003 /* Build configuration list for PBXNativeTarget "PlantsLove" */;
 			buildPhases = (
 				826523E02C51966C00ED0003 /* Sources */,
 				826523E12C51966C00ED0003 /* Frameworks */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = PlantsLoveApp;
+			name = PlantsLove;
 			productName = PlantsLoveApp;
-			productReference = 826523E42C51966C00ED0003 /* PlantsLoveApp.app */;
+			productReference = 826523E42C51966C00ED0003 /* PlantsLove.app */;
 			productType = "com.apple.product-type.application";
 		};
 		826523F92C51967000ED0003 /* PlantsLoveAppTests */ = {
@@ -267,7 +267,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				826523E32C51966C00ED0003 /* PlantsLoveApp */,
+				826523E32C51966C00ED0003 /* PlantsLove */,
 				826523F92C51967000ED0003 /* PlantsLoveAppTests */,
 				826524032C51967000ED0003 /* PlantsLoveAppUITests */,
 			);
@@ -342,12 +342,12 @@
 /* Begin PBXTargetDependency section */
 		826523FC2C51967000ED0003 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 826523E32C51966C00ED0003 /* PlantsLoveApp */;
+			target = 826523E32C51966C00ED0003 /* PlantsLove */;
 			targetProxy = 826523FB2C51967000ED0003 /* PBXContainerItemProxy */;
 		};
 		826524062C51967000ED0003 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 826523E32C51966C00ED0003 /* PlantsLoveApp */;
+			target = 826523E32C51966C00ED0003 /* PlantsLove */;
 			targetProxy = 826524052C51967000ED0003 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -424,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -481,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -635,7 +635,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8265240E2C51967000ED0003 /* Build configuration list for PBXNativeTarget "PlantsLoveApp" */ = {
+		8265240E2C51967000ED0003 /* Build configuration list for PBXNativeTarget "PlantsLove" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8265240F2C51967000ED0003 /* Debug */,
